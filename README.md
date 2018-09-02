@@ -7,5 +7,5 @@ This Repo contains Terraform configuration files to launch an EC2 instance in a 
 - [Requirements](#requirements)
 
 ## Requirements
-
-
+For the configurations files to work, you need to do the following
+- Create an AWS account. if you don't have an account. create one [here] (https://aws.amazon.com/resources/create-account/)
