@@ -29,8 +29,18 @@ You need to ensure that all variables specific to your aws account such as AWS r
     }
   }
 ```
+Create ssh keys to login to the remote instance
 
+```
+ssh-keygen -f mykeys
+```
+This will create ssh keys inside the current directory 
 Initialize terraform in the project repo
 ```
 terraform init 
+```
+Run the config files
+
+```
+terraform apply 
 ```
