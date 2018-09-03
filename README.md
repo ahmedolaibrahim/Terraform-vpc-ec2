@@ -45,13 +45,16 @@ Run the config files
 terraform apply 
 ```
 Running the above commands should result in 
+
 console result
 ![Test Image 1](console_result.png)
 
 ec2 instance deployed on aws
+
 ![Test Image 2](ec2.png)
 
 VPC with name main created
+
 ![Test Image 3](vpc_main.png)
 
 To terminate the instance and VPC environment
