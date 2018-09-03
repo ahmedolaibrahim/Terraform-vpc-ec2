@@ -5,7 +5,7 @@ This Repo contains Terraform configuration files to launch an EC2 instance in a 
 ## Table of Contents
 
 - [Requirements](#requirements)
-- [Getting Started](#getting started)
+- [Getting Started](#getting-started)
 
 ## Requirements
 For the deployment to be succesfull, you need to do the following
@@ -16,5 +16,6 @@ For the deployment to be succesfull, you need to do the following
 
 ## Getting Started
 Initialize terraform in the project repo
-```terraform init 
+```
+terraform init 
 ```
