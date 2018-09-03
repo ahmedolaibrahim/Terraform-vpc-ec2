@@ -15,6 +15,21 @@ For the deployment to be succesfull, you need to do the following
 
 
 ## Getting Started
+You need to ensure that all variables specific to your aws account such as AWS region are declared in vars.tf file as shown below
+```
+  variable "AWS_REGION" {
+    default = "us-east-1"
+  }
+  variable "AMIS" {
+    type = "map"
+    default = {
+      us-east-1 = "ami-07917569e2c4a2b6a"
+      us-west-2 = "ami-03715f92274307130"
+      eu-west-1 = "ami-0f9036df5dbe8d6ac"
+    }
+  }
+```
+
 Initialize terraform in the project repo
 ```
 terraform init 
